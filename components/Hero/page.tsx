@@ -9,8 +9,9 @@ import {
   motion,
   animate,
 } from "framer-motion";
+import Card from "../LottiePlayer/page";
 
-const COLORS_TOP = ["#17f1c0", "#1E67C6", "#CE84CF", "#DD335C"];
+const COLORS_TOP = ["", ""];
 
 export const AuroraHero = () => {
   const color = useMotionValue(COLORS_TOP[0]);
@@ -36,9 +37,10 @@ export const AuroraHero = () => {
       className="relative grid min-h-screen place-content-center overflow-hidden bg-gray-950 px-4 py-24 text-gray-200"
     >
       <div className="relative z-10 flex flex-col items-center">
-        <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
+      <Card  src='hero' css='w-96 h-96' size='flex justify-center items-center' loop={true} speed={1} />
+        {/* <span className="mb-1.5 inline-block rounded-full bg-gray-600/50 px-3 py-1.5 text-sm">
           Beta Now Live!
-        </span>
+        </span> */}
         <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-7xl md:leading-tight">
         Access Cash without redeeming your Investments.
 
