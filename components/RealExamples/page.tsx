@@ -20,7 +20,22 @@ export const TextParallaxContentExample = () => {
       >
         <ExampleContent />
       </TextParallaxContent>
-     
+      <TextParallaxContent
+        imgUrl="https://images.unsplash.com/photo-1574607383476-f517f260d30b?q=80&w=2574&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        subheading="Secure Your Child's Education Future"
+        heading="Plan, Save, Prosper"
+      >
+        <ExampleContent />
+      </TextParallaxContent>
+
+      <TextParallaxContent
+        imgUrl="https://images.unsplash.com/photo-1518458028785-8fbcd101ebb9?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        subheading="No More Buy Now Suffer Later under EMIs"
+        heading="Buy Now, Pay Later"
+      >
+        <ExampleContent />
+      </TextParallaxContent>
+
     </div>
   );
 };

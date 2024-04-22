@@ -11,7 +11,7 @@ import {
 } from "framer-motion";
 import Card from "../LottiePlayer/page";
 
-const COLORS_TOP = ["", ""];
+const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 
 export const AuroraHero = () => {
   const color = useMotionValue(COLORS_TOP[0]);

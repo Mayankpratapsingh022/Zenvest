@@ -7,6 +7,7 @@ import Heading from "../../components/Heading/page";
 import { AuroraHero } from "../../components/Hero/page";
 import { TextParallaxContentExample } from "../../components/RealExamples/page";
 import { ScrollTex } from "../../components/ScrollText/page";
+import Stepper from "../../components/Stepper/page";
 import Tag from "../../components/tag/page";
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
 <CardHoverEffectDemo/>
 <ScrollTex/>
 <TextParallaxContentExample/>
+<Stepper/>
    </>
   );
 }
