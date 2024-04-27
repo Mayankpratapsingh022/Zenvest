@@ -13,6 +13,7 @@ import BasicFAQ from "../../components/FAQs/page";
 import HeroTwo from "../../components/HeroTwo/page";
 import { Partners } from "../../components/Partners/page";
 import Footer from "../../components/Footer/page";
+import { StickyCards } from "../../components/Real Example/page";
 
 export default function Home() {
   return (
@@ -25,7 +26,8 @@ export default function Home() {
 <CardStackDemo/>
 <CardHoverEffectDemo/>
 <ScrollTex/>
-<TextParallaxContentExample/>
+{/* <TextParallaxContentExample/> */}
+<StickyCards/>
 <SteppedProgress/>
 <StaggerTestimonials/>
 
