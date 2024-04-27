@@ -137,7 +137,7 @@ const LinkBox = ({ Icon, href }: { Icon: IconType; href: string }) => {
         }}
         className="absolute inset-0 grid place-content-center bg-emerald-500 text-white"
       >
-       
+       <p className='text-3xl text-white'>CAMS</p>
        <Image
       src={`/${href}`}
       width={100}

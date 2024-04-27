@@ -3,7 +3,7 @@ import Card from "../LottiePlayer/page";
 export default function GraphAnimaton(){
     return(
         <>
-        <div className=" flex sm:flex-col lg:flex-row p-5 px-20 justify-center items-center gap-20 py-20 m-20"> 
+        <div className=" flex sm:flex-row lg:flex-col p-5  justify-center items-center gap-20 py-20 m-20"> 
         <div className="border-gray-950 lg:w-2/6 bg-black rounded-xl border  p-4">
 
         <Card  src='poverty' css='w-96 h-96' size='flex justify-center items-center' loop={true} speed={1} />
