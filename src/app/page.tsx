@@ -10,6 +10,9 @@ import { TextParallaxContentExample } from "../../components/RealExamples/page";
 import { ScrollTex } from "../../components/ScrollText/page";
 import SteppedProgress from "../../components/Stepper/page";
 import BasicFAQ from "../../components/FAQs/page";
+import HeroTwo from "../../components/HeroTwo/page";
+import { Partners } from "../../components/Partners/page";
+import Footer from "../../components/Footer/page";
 
 export default function Home() {
   return (
@@ -25,7 +28,11 @@ export default function Home() {
 <TextParallaxContentExample/>
 <SteppedProgress/>
 <StaggerTestimonials/>
+
+<HeroTwo/>
+<Partners/>
 <BasicFAQ/>
+<Footer/>
    </>
   );
 }

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const SteppedProgress = () => {
-  const [stepsComplete, setStepsComplete] = useState(0);
+  const [stepsComplete, setStepsComplete] = useState(1);
   const numSteps = 4;
 
   const handleSetStep = (num: -1 | 1) => {
@@ -21,8 +21,49 @@ const SteppedProgress = () => {
     <div className="px-4 py-14 ">
       <div className="p-8 bg-white shadow-lg rounded-md w-full max-w-2xl mx-auto">
         <Steps numSteps={numSteps} stepsComplete={stepsComplete} />
-        <div className="p-2 my-6 h-48 bg-gray-100 border-2 border-dashed border-gray-200 rounded-lg"></div>
+        <div className="p-2 my-6 h-48 bg-gray-100 border-2 border-dashed border-gray-200 rounded-lg">
+        {
+stepsComplete == 1? <div className="flex  gap-5 flex-col p-4">
+
+<h1 className="text-4xl text-black font-bold">Step 1</h1>
+<p className="text-zinc-950 lg:text-xl sm:text-md">Login into Zenvest via your  Aadhar-enabled mobile number</p>
+</div>:""
+        }
+
+{
+stepsComplete == 2? <div className="flex  gap-5 flex-col p-4">
+
+<h1 className="text-4xl text-black font-bold">Step 2</h1>
+<p className="text-zinc-950  lg:text-xl sm:text-md">Upload your KYC documents or fill  them in a fresh to start the lending process.</p>
+</div>:""
+        }
+
+
+{
+stepsComplete == 3? <div className="flex  gap-5 flex-col p-4">
+
+<h1 className="text-4xl text-black font-bold">Step 3</h1>
+<p className="text-zinc-950  lg:text-xl sm:text-md">Mark lien on the mutual funds  or shares starting at Rs 10,000</p>
+</div>:""
+        }
+
+{
+stepsComplete == 4? <div className="flex  gap-5 flex-col p-4">
+
+<h1 className="text-4xl text-black font-bold">Step 4</h1>
+<p className="text-zinc-950  lg:text-xl sm:text-md">Relax & wait your loan will  be disbursed into your account within 4 hours.</p>
+</div>:""
+        }
+
+{
+stepsComplete == 0? <div className="flex h-full justify-center items-center gap-5  p-4">
+
+<h1 className="lg:text-4xl sm:text-2xl p-5 text-black font-bold">How to Apply for loan</h1>
+</div>:""
+        }
+    </div>
         <div className="flex items-center justify-end gap-2">
+        
           <button
             className="px-4 py-1 rounded hover:bg-gray-100 text-black"
             onClick={() => handleSetStep(-1)}
