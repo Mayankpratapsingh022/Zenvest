@@ -14,6 +14,7 @@ import HeroTwo from "../../components/HeroTwo/page";
 import { Partners } from "../../components/Partners/page";
 import Footer from "../../components/Footer/page";
 import { StickyCards } from "../../components/Real Example/page";
+import GraphAnimaton from "../../components/Graph/page";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
 <CardStackDemo/>
 <CardHoverEffectDemo/>
 <ScrollTex/>
+<GraphAnimaton/>
 {/* <TextParallaxContentExample/> */}
 <StickyCards/>
 <SteppedProgress/>
