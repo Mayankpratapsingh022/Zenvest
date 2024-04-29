@@ -15,6 +15,7 @@ import { Partners } from "../../components/Partners/page";
 import Footer from "../../components/Footer/page";
 import { StickyCards } from "../../components/Real Example/page";
 import GraphAnimaton from "../../components/Graph/page";
+import { DragCloseDrawerExample } from "../../components/Signupform/page";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
 
 <Heading/>
    <BackgroundGradientDemo/>
+   <DragCloseDrawerExample/>
 <CardStackDemo/>
 <CardHoverEffectDemo/>
 <ScrollTex/>

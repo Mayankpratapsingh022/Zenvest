@@ -29,14 +29,15 @@ export const Partners = () => {
 const ClipPathLinks = () => {
   return (
     <div className="divide-y divide-neutral-900 border border-neutral-900">
+  <h1 className='text-5xl p-8 font-bold text-center '>Our Partners</h1>
       <div className="grid grid-cols-2 divide-x divide-neutral-900">
-        <LinkBox Icon={SiGoogle} href="cams.png" />
-        <LinkBox Icon={SiShopify} href="nsdl.png" />
+        <LinkBox Icon={SiGoogle} href="CAMS" />
+        <LinkBox Icon={SiShopify} href="NSDL" />
       </div>
       <div className="grid grid-cols-3 divide-x divide-neutral-900">
-        <LinkBox Icon={SiApple} href="karvy.png" />
-        <LinkBox Icon={SiSoundcloud} href="kfintech.jpeg" />
-        <LinkBox Icon={SiAdobe} href="cdsl.png" />
+        <LinkBox Icon={SiApple} href="KARVY" />
+        <LinkBox Icon={SiSoundcloud} href="KFINTECH" />
+        <LinkBox Icon={SiAdobe} href="CDSL" />
       
       </div>
     
@@ -137,21 +138,22 @@ const LinkBox = ({ Icon, href }: { Icon: IconType; href: string }) => {
         }}
         className="absolute inset-0 grid place-content-center bg-emerald-500 text-white"
       >
-       <p className='text-3xl text-white'>CAMS</p>
-       <Image
+       <p className='text-4xl text-white font-bold'>{href}</p>
+       {/* <Image
       src={`/${href}`}
       width={100}
       height={100}
       alt="Logo of partners"
-    />
+    /> */}
 
       </div>
-      <Image
+      {/* <Image
       src={`/${href}`}
       width={100}
       height={100}
       alt="Logo of partners"
-    />
+    /> */}
+           <p className='text-4xl text-white font-bold'>{href}</p>
     </a>
   );
 };
