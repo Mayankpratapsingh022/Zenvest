@@ -1,8 +1,9 @@
+import Link from 'next/link'
 export default function Footer(){
     return(
         <>
         <footer className="bg-emerald-500 ">
-  <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
+  <div className="mx-auto max-w-screen-xl px-4 pb-24 pt-16 sm:px-6 lg:px-8 ">
     <div className="mx-auto max-w-md">
       <strong className="block text-center text-xl font-semibold text-gray-50 sm:text-3xl">
    Receive exclusive offers on loans against securities.
@@ -33,6 +34,12 @@ export default function Footer(){
         <p className="mt-4 text-center text-zinc-50 lg:text-center lg:text-lg">
         Empower Your Financial Future with Zenvest: Unlock Quick Loans Against Securities Today!
         </p>
+        <div>
+        <Link href="/policy">
+
+          <p  className="underline py-5 gap-4 ">PRIVACY POLICY</p>
+          </Link>
+        </div>
 
         <div className="mt-6 flex justify-center gap-4 lg:justify-start">
           <a
@@ -234,7 +241,7 @@ export default function Footer(){
 
      
         <a href="https://www.instagram.com/mayankpratapsingh_022/" target="_blank" className="text-gray-50 underline transition hover:text-gray-700/75">
-        Created by Mayank
+        Front-End Done by Mayank
         </a>
     
       </p>

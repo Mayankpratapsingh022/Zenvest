@@ -12,7 +12,7 @@ import { SignupFormDemo } from "../Inputfeild/page";
 export const DragCloseDrawerExample = () => {
   const [open, setOpen] = useState(false);
   return (
-    <div className="grid h-screen place-content-center bg-neutral-950">
+    <div className="grid  place-content-center bg-neutral-950">
         <div className=" fixed bottom-0 left-0 w-full p-5 z-40 bg-zinc-950">
       <button
         onClick={() => setOpen(true)}
