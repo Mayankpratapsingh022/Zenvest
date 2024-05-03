@@ -17,10 +17,10 @@ export function PDFDownload() {
         className="mt-8 bg-gradient-to-br from-slate-300 to-slate-500 py-4 bg-clip-text text-center text-4xl font-medium tracking-tight text-transparent md:text-7xl"
       >
         <div  className="flex flex-col">
-       Download the PDF <br /> for additional Info
+       Download The PDF <br /> For Additional Info
       <div >
  
-      <a className="px-3 py-2 rounded-md bg-teal-500 text-xl text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500" href="/Zenvest.pdf" download={true}>Download
+      <a className="px-3 py-2 rounded-md bg-emerald-400 text-xl text-white font-bold transition duration-200 hover:bg-white hover:text-black border-2 border-transparent hover:border-teal-500" href="/Zenvest.pdf" download={true}>Download
 
 </a>
 
