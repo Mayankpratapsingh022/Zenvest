@@ -16,6 +16,10 @@ import Footer from "../../components/Footer/page";
 import { StickyCards } from "../../components/Real Example/page";
 import GraphAnimaton from "../../components/Graph/page";
 import { DragCloseDrawerExample } from "../../components/Signupform/page";
+import { Table } from "../../components/Table/page";
+import { PDFDownload } from "../../components/PDFDownload/page";
+
+
 
 export default function Home() {
   return (
@@ -32,12 +36,15 @@ export default function Home() {
 <GraphAnimaton/>
 {/* <TextParallaxContentExample/> */}
 <StickyCards/>
+
 <SteppedProgress/>
+<Table/>
 <StaggerTestimonials/>
 
 <HeroTwo/>
 <Partners/>
 <BasicFAQ/>
+<PDFDownload/>
 <Footer/>
    </>
   );

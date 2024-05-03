@@ -4,7 +4,7 @@ import { SparklesCore } from "@/components/ui/sparkles";
 
 export default function Policy() {
   return (
-    <div className="h-full relative w-full p-10 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
+    <div className="h-full relative w-full px-2 py-10 bg-black flex flex-col items-center justify-center overflow-hidden rounded-md">
      <div>
      <h1 className="md:text-5xl  text-3xl lg:text-5xl font-bold text-center text-white relative z-20">
      PRIVACY POLICY
@@ -30,7 +30,7 @@ export default function Policy() {
         <div className="absolute inset-0 w-full h-full bg-black [mask-image:radial-gradient(350px_200px_at_top,transparent_20%,white)]"></div>
       </div></div> 
 
-      <div className="container mx-auto px-4 py-8  bg-[#0E0E10]  rounded-2xl w-full">
+      <div className="container mx-auto  px-4 py-8  bg-[#0E0E10]  rounded-2xl w-full">
   <h1 className="text-3xl font-bold mb-4">Privacy Policy</h1>
   
   <p className="mb-4">This Privacy Policy document ("Privacy Policy") is published in accordance with the provisions of Rule 4 (1) of the Information Technology (Reasonable Security Practices and Procedures and Sensitive Personal Data or Information) Rules, 2011 which requires the publishing of a privacy policy for handling of or dealing in personal information including sensitive personal data or information.</p>

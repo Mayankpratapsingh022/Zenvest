@@ -34,11 +34,16 @@ export default function Footer(){
         <p className="mt-4 text-center text-zinc-50 lg:text-center lg:text-lg">
         Empower Your Financial Future with Zenvest: Unlock Quick Loans Against Securities Today!
         </p>
-        <div>
+        <div className='flex flex-row text-md'>
         <Link href="/policy">
 
-          <p  className="underline py-5 gap-4 ">PRIVACY POLICY</p>
+          <p  className="underline p-1">Privacy Policy</p>
           </Link>
+
+          <Link href="/Terms">
+
+<p  className="underline p-1 ">Terms and Conditions</p>
+</Link>
         </div>
 
         <div className="mt-6 flex justify-center gap-4 lg:justify-start">
