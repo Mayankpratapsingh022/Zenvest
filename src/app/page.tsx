@@ -6,7 +6,6 @@ import { StaggerTestimonials } from "../../components/Testimonials/page";
 import { CardHoverEffectDemo } from "../../components/Greatvehicle/page";
 import Heading from "../../components/Heading/page";
 import { AuroraHero } from "../../components/Hero/page";
-import { TextParallaxContentExample } from "../../components/RealExamples/page";
 import { ScrollTex } from "../../components/ScrollText/page";
 import SteppedProgress from "../../components/Stepper/page";
 import BasicFAQ from "../../components/FAQs/page";
@@ -18,6 +17,7 @@ import GraphAnimaton from "../../components/Graph/page";
 import { DragCloseDrawerExample } from "../../components/Signupform/page";
 import { Table } from "../../components/Table/page";
 import { PDFDownload } from "../../components/PDFDownload/page";
+import Modal from "../../components/RBImodal/page";
 
 
 
@@ -28,6 +28,7 @@ export default function Home() {
    {/* <Tag/> */}
 
 <Heading/>
+<Modal/>
    <BackgroundGradientDemo/>
    <DragCloseDrawerExample/>
 <CardStackDemo/>
