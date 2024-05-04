@@ -25,7 +25,7 @@ export const StickyCards = () => {
           />
         ))}
       </div>
-      <div className="h-screen bg-black" />
+      <div className="h-full bg-black" />
     </>
   );
 };

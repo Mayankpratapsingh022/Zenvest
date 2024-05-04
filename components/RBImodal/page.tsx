@@ -15,7 +15,7 @@ const Modal = () => {
   }, []);
 
   return (
-    <div className="px-4 py-64 bg-slate-900 grid place-content-center">
+    <div className=" bg-slate-900 grid place-content-center">
       <SpringModal isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   );

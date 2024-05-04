@@ -1,3 +1,5 @@
+import { transcode } from "buffer";
+import { transform } from "next/dist/build/swc";
 import type { Config } from "tailwindcss"
 const {
   default: flattenColorPalette,
@@ -64,6 +66,11 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
+         "loop-scroll":{
+            from:{transform:"translateX(0)"},
+            to:{transform:"translateX(-100%)"},
+         },
+
         "accordion-down": {
           from: { height: "0" },
           to: { height: "var(--radix-accordion-content-height)" },
@@ -96,6 +103,7 @@ const config = {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         scroll:
         "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
+        "loop-scroll":"loop-scroll 50s linear infinite",
       },
     },
   },

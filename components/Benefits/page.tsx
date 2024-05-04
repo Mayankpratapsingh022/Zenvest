@@ -90,11 +90,11 @@ Without  facing crunch for emergency Cash
    
    
   
-No Hidden Charges
+Pay only Intrest Amount
    </p>
 
    <p className="text-sm text-neutral-600 dark:text-neutral-400">
-   Pay only the Interest Not Even EMI till the loan term Pay Interest on the Flexible Principle value you choose
+   Pay only the Interest Not Even EMI till the loan term Pay Interest on the Flexible Principle value you choose. balloon amout accepted
    </p>
 	
 		</div>
