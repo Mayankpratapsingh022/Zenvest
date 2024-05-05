@@ -20,6 +20,7 @@ import { PDFDownload } from "../../components/PDFDownload/page";
 import Modal from "../../components/RBImodal/page";
 import { SwipeCarousel } from "../../components/RealExamples/page";
 import Partners from "../../components/Partners/page";
+import Zoho from "../../components/Zoho from/page";
 
 
 
@@ -32,7 +33,9 @@ export default function Home() {
 <Heading/>
 <Modal/>
    <BackgroundGradientDemo/>
-   <DragCloseDrawerExample/>
+   {/* // this DragCloseDrawer is the old form ui */}
+   <Zoho/>
+   {/* <DragCloseDrawerExample/> */}
 <CardStackDemo/>
 <CardHoverEffectDemo/>
 <ScrollTex/>

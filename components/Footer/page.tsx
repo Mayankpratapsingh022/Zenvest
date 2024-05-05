@@ -244,10 +244,10 @@ export default function Footer(){
 
         <br />
 
-     
+{/*      
         <a href="https://www.instagram.com/mayankpratapsingh_022/" target="_blank" className="text-gray-50 underline transition hover:text-gray-700/75">
         Front-End Done by Mayank
-        </a>
+        </a> */}
     
       </p>
     </div>

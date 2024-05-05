@@ -93,7 +93,7 @@ insurance policies, each requiring appropriate collateral
   
  Peer-toPeer Lending Platform (Comming soon)
 
-Earn upto  Fix 7% Interest Rate per mont
+Earn upto  Fix 7% Interest Rate per month
           </p>
         </Question>
       </div>
