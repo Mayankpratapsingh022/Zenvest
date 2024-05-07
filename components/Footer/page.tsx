@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 export default function Footer(){
     return(
         <>
@@ -235,7 +236,14 @@ export default function Footer(){
         </div>
       </div>
 
-
+    </div>
+    <div className='w-full flex items-center justify-center p-5'>
+    <Image
+      src="/commingsoon.png"
+      width={200}
+      height={200}
+      alt="Google Play comming soon"
+    />
     </div>
 
     <div className="mt-16 border-t border-gray-100 pt-8">
@@ -250,6 +258,7 @@ export default function Footer(){
         </a> */}
     
       </p>
+
     </div>
   </div>
 </footer>

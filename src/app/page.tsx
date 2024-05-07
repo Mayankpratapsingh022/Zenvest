@@ -22,6 +22,8 @@ import { SwipeCarousel } from "../../components/RealExamples/page";
 import Partners from "../../components/Partners/page";
 import Zoho from "../../components/Zoho from/page";
 import BlogPostCarousel from "../../components/Blog/page";
+import { AboutStory } from "../../components/AboutStory/page";
+import Team from "../../components/Team/page";
 
 
 
@@ -53,6 +55,8 @@ export default function Home() {
 
 <HeroTwo/>
 <Partners/>
+<AboutStory/>
+<Team/>
 <BasicFAQ/>
 <PDFDownload/>
 <Footer/>

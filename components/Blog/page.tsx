@@ -133,5 +133,13 @@ const posts: PostType[] = [
       "Loan against mutual funds (LAM) serves as a crucial lifeline for many individuals and businesses in India, especial...",
     link:'https://medium.com/@bakuleshraneprofile/loan-against-mutual-funds-lam-serves-as-a-crucial-lifeline-for-many-individuals-and-businesses-in-b90ae8f6e460'
   },
-
+  {
+    id: 1,
+    imgUrl: "https://miro.medium.com/v2/resize:fit:720/format:webp/0*rnhN8yaJxbhk7hjF",
+    author: "Bakulesh Rane",
+    title: "How LAMF saves Marriages ?",
+    description:
+      "In the context of marriage planning, it’s crucial to explore additional techniques and considerations to ensure financi...",
+    link:'https://medium.com/@bakuleshraneprofile/how-lamf-saves-marriages-26aa993cb1b5'
+  },
 ];
