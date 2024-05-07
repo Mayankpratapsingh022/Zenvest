@@ -16,7 +16,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
+      <head>
+      <meta property="og:title" content="Zenvest Finance" />
+      <meta property="og:type" content="/zenvestVideo.mp4"></meta>
+   
+      </head>
       <body className={inter.className}>{children}</body>
+      
     </html>
   );
 }

@@ -32,7 +32,7 @@ export default function Footer(){
     <div className="flex justify-center items-center gap-5 text-center">
       <div className=" flex flex-col justify-center items-center">
         <p className="mt-4 text-center text-zinc-50 lg:text-center lg:text-lg">
-        Empower Your Financial Future with Zenvest: Unlock Quick Loans Against Securities Today!
+        Receive exclusive Financial Insites  and head start your grand  FIRE 🔥Journey (Financial Independence, Retire Early) with like minded community 📈 supercharging your decisions with their insites
         </p>
         <div className='flex flex-row text-md'>
         <Link href="/policy">

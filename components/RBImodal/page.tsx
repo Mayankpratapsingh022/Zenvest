@@ -51,11 +51,12 @@ const SpringModal = ({
                 <FiAlertCircle />
               </div>
               <h3 className="text-3xl font-bold text-center mb-2">
-                One more thing!
+              Important Update
               </h3>
               <p className="text-center mb-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                aperiam vitae, sapiente ducimus eveniet in velit.
+              KYC and Nomination Deadlines Extended! Originally set for Dec 31, 2023, the deadline to nominate or opt out for your mutual fund folios and Demat accounts is now June 30, 2024. Unupdated accounts will be frozen post-deadline. Ensure compliance by updating your Aadhar and PAN details. Details at SEBI Circular
+              <br></br>
+              <a className="font-italic underline " href="https://www.sebi.gov.in/legal/circulars/dec-2023/extension-of-timelines-for-providing-choice-of-nomination-in-eligible-demat-accounts-and-mutual-fund-folios_80221.html" target="_blank">Check on Sebi Site</a>
               </p>
               <div className="flex gap-2">
                 {/* <button

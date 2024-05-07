@@ -21,6 +21,7 @@ import Modal from "../../components/RBImodal/page";
 import { SwipeCarousel } from "../../components/RealExamples/page";
 import Partners from "../../components/Partners/page";
 import Zoho from "../../components/Zoho from/page";
+import BlogPostCarousel from "../../components/Blog/page";
 
 
 
@@ -41,6 +42,7 @@ export default function Home() {
 <ScrollTex/>
 
 <GraphAnimaton/>
+<BlogPostCarousel/>
 {/* <TextParallaxContentExample/> */}
 <SwipeCarousel/>
 <StickyCards/>
