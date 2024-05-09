@@ -7,7 +7,7 @@ export default function Footer(){
   <div className="mx-auto max-w-screen-xl px-4 pb-24 pt-16 sm:px-6 lg:px-8 ">
     <div className="mx-auto max-w-md">
       <strong className="block text-center text-xl font-semibold text-gray-50 sm:text-3xl">
-   Receive exclusive offers on loans against securities.
+   Receive exclusive Insights
       </strong>
 
       <form className="mt-6">

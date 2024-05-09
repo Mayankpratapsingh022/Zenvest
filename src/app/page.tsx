@@ -24,6 +24,7 @@ import Zoho from "../../components/Zoho from/page";
 import BlogPostCarousel from "../../components/Blog/page";
 import { AboutStory } from "../../components/AboutStory/page";
 import Team from "../../components/Team/page";
+import VideoPlayer from "../../components/Video/page";
 
 
 
@@ -50,6 +51,7 @@ export default function Home() {
 <StickyCards/>
 
 <SteppedProgress/>
+<VideoPlayer/>
 <Table/>
 <StaggerTestimonials/>
 
