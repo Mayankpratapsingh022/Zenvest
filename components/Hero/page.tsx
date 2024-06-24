@@ -13,7 +13,9 @@ import Card from "../LottiePlayer/page";
 import CommingSoon from "../CommingSoon/page";
 
 
-const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+const COLORS_TOP = [
+  ''
+];
 
 export const AuroraHero = () => {
   const color = useMotionValue(COLORS_TOP[0]);

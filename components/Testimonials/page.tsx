@@ -285,4 +285,11 @@ const TESTIMONIAL_DATA: TestimonialType[] = [
     by: "Jeevan",
     imgSrc: "12.jpg",
   },
+  {
+    tempId: 12,
+    testimonial:
+      "A great tool for my clients to increase their investment in Mutual Funds as Savings.",
+    by: "hello",
+    imgSrc: "12.jpg",
+  },
 ];

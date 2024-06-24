@@ -22,6 +22,7 @@ export default function Partners() {
               <li>
                 <Image src="/nsdl.png" width={100} height={100} alt="kfintech" />
               </li>
+       
             </ul>
           </div>
         </div>

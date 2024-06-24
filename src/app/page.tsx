@@ -28,6 +28,7 @@ import VideoPlayer from "../../components/Video/page";
 
 
 
+
 export default function Home() {
   return (
    <>
@@ -38,21 +39,21 @@ export default function Home() {
 <Modal/>
    <BackgroundGradientDemo/>
    {/* // this DragCloseDrawer is the old form ui */}
-   <Zoho/>
-   {/* <DragCloseDrawerExample/> */}
+   {/* <Zoho/> */}
+   <DragCloseDrawerExample/>
 <CardStackDemo/>
 <CardHoverEffectDemo/>
-<ScrollTex/>
+{/* <ScrollTex/> */}
 
 <GraphAnimaton/>
 <BlogPostCarousel/>
 {/* <TextParallaxContentExample/> */}
-<SwipeCarousel/>
+{/* <SwipeCarousel/> */}
 <StickyCards/>
 
 <SteppedProgress/>
-<VideoPlayer/>
-<Table/>
+{/* <VideoPlayer/> */}
+{/* <Table/> */}
 <StaggerTestimonials/>
 
 <HeroTwo/>
@@ -60,7 +61,7 @@ export default function Home() {
 <AboutStory/>
 <Team/>
 <BasicFAQ/>
-<PDFDownload/>
+{/* <PDFDownload/> */}
 <Footer/>
    </>
   );

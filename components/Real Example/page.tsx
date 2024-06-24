@@ -112,4 +112,5 @@ const CARDS: CardType[] = [
     ctaClasses: "bg-amber-300",
     routeTo: "#",
   },
+
 ];

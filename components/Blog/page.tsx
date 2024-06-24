@@ -142,4 +142,5 @@ const posts: PostType[] = [
       "In the context of marriage planning, it’s crucial to explore additional techniques and considerations to ensure financi...",
     link:'https://medium.com/@bakuleshraneprofile/how-lamf-saves-marriages-26aa993cb1b5'
   },
+
 ];
