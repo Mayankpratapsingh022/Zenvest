@@ -247,7 +247,7 @@ export default function Footer(){
     </div>
 
     <div className="mt-16 border-t border-gray-100 pt-8">
-      <p>Crafted with ❤️ by Mayank Pratap Singh </p>
+      <p className='flex justify-center items-center'>Crafted with ❤️ by Mayank Pratap Singh </p>
       <p className="text-center text-xs/relaxed text-gray-50">
         © Zenvest 2024. All rights reserved.
 
