@@ -36,7 +36,7 @@ export default function Home() {
    {/* <Tag/> */}
 
 <Heading/>
-<Modal/>
+{/* <Modal/> */}
    <BackgroundGradientDemo/>
    {/* // this DragCloseDrawer is the old form ui */}
    {/* <Zoho/> */}
